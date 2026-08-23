@@ -1,0 +1,20 @@
+{
+  "name": "strophe.one",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "https://github.com/strophe-one/strophe.one#readme",
+  "bugs": {
+    "url": "https://github.com/strophe-one/strophe.one/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strophe-one/strophe.one.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  }
+}
