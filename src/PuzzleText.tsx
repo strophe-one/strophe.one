@@ -7,7 +7,7 @@
         <div class='word'>
             {
                 answerArray.map(
-                       (e) => <span class='character'>{e}</span>
+                       (e) => <span class='character' onMouseEnter={() => {console.log(e)}}>{e}</span>
                     )
             }
         </div>
