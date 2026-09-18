@@ -5,10 +5,8 @@
 
     const sideChecker = (event) => {
         const rect = event.target.getBoundingClientRect()
-
         const leftDist = event.clientX - rect.left
         const rightDist = rect.right - event.clientX
-
         console.log(leftDist < rightDist ? "left" : "right")
     }
 
